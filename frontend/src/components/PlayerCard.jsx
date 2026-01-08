@@ -3,7 +3,7 @@ import { MapPin, Trophy } from 'lucide-react';
 
 export default function PlayerCard({ player }) {
   return (
-    <Link to={`/players/${player.id}`}>
+    <Link to={`/players/${player.player_id}`}>
       <div className="bg-white rounded-lg shadow hover:shadow-lg transition p-4 flex items-center gap-4">
         <img
           src={player.photo_url || 'https://via.placeholder.com/80'}
