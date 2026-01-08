@@ -13,11 +13,9 @@ class PGAService:
         self.use_mock_data = True  # Set to False to use real API
 
     def _get_headers(self):
-        """Private method to get API headers"""
         return {"Ocp-Apim-Subscription-Key": self.api_key}
 
     def get_all_players(self) -> List[Dict]:
-        """Get all players from API or mock data"""
         if self.use_mock_data:
             return MOCK_PLAYERS
 
@@ -31,7 +29,6 @@ class PGAService:
             return MOCK_PLAYERS
 
     def search_players(self, query: str) -> List[Dict]:
-        """Search players by name"""
         all_players = self.get_all_players()
         query_lower = query.lower()
 
@@ -45,12 +42,10 @@ class PGAService:
         return matches[:10]
 
     def get_player_by_id(self, player_id: int) -> Optional[Dict]:
-        """Get a single player by ID"""
         all_players = self.get_all_players()
         return next((p for p in all_players if p['player_id'] == player_id), None)
 
     def get_player_stats(self, player_id: int, season: int = 2024) -> Optional[Dict]:
-        """Get player stats for a specific season"""
         if self.use_mock_data:
             return MOCK_STATS.get(player_id)
 
@@ -70,7 +65,6 @@ class PGAService:
             return MOCK_STATS.get(player_id)
 
     def get_player_tournaments(self, player_id: int, season: int = 2024) -> List[Dict]:
-        """Get recent tournament results for a player"""
         if self.use_mock_data:
             return MOCK_TOURNAMENTS.get(player_id, MOCK_TOURNAMENTS["default"])
 
