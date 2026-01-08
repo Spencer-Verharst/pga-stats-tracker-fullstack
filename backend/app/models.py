@@ -18,7 +18,6 @@ class Player(Base):
     majors_won = Column(Integer, default=0)
     pga_tour_wins = Column(Integer, default=0)
 
-    # Relationship to stats
     stats = relationship("PlayerStats", back_populates="player")
 
 
@@ -36,5 +35,4 @@ class PlayerStats(Base):
     top_10_finishes = Column(Integer)
     wins = Column(Integer)
 
-    # Relationship back to player
     player = relationship("Player", back_populates="stats")
