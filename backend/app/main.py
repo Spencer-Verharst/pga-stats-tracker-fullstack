@@ -3,7 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from app import routes
 from app.database import engine, Base
 
-# Create database tables
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(
@@ -12,7 +11,6 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# CORS - allows React frontend to call this API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],  # React dev server
@@ -21,7 +19,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routes
 app.include_router(routes.router, prefix="/api")
 
 @app.get("/")
