@@ -5,7 +5,7 @@ MOCK_PLAYERS = [
         "last_name": "Woods",
         "full_name": "Tiger Woods",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_1747.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Tiger+Woods&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 1453,
         "majors_won": 15,
         "pga_tour_wins": 82
@@ -16,7 +16,7 @@ MOCK_PLAYERS = [
         "last_name": "McIlroy",
         "full_name": "Rory McIlroy",
         "country": "Northern Ireland",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_28237.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Rory+McIlroy&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 3,
         "majors_won": 4,
         "pga_tour_wins": 24
@@ -27,7 +27,7 @@ MOCK_PLAYERS = [
         "last_name": "Scheffler",
         "full_name": "Scottie Scheffler",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_46046.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Scottie+Scheffler&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 1,
         "majors_won": 2,
         "pga_tour_wins": 13
@@ -38,7 +38,7 @@ MOCK_PLAYERS = [
         "last_name": "Rahm",
         "full_name": "Jon Rahm",
         "country": "Spain",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_36689.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Jon+Rahm&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 7,
         "majors_won": 2,
         "pga_tour_wins": 11
@@ -49,7 +49,7 @@ MOCK_PLAYERS = [
         "last_name": "Spieth",
         "full_name": "Jordan Spieth",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_29221.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Jordan+Spieth&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 15,
         "majors_won": 3,
         "pga_tour_wins": 13
@@ -60,7 +60,7 @@ MOCK_PLAYERS = [
         "last_name": "Koepka",
         "full_name": "Brooks Koepka",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_33141.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Brooks+Koepka&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 14,
         "majors_won": 5,
         "pga_tour_wins": 10
@@ -71,7 +71,7 @@ MOCK_PLAYERS = [
         "last_name": "Thomas",
         "full_name": "Justin Thomas",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_33448.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Justin+Thomas&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 11,
         "majors_won": 2,
         "pga_tour_wins": 15
@@ -82,7 +82,7 @@ MOCK_PLAYERS = [
         "last_name": "Morikawa",
         "full_name": "Collin Morikawa",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_50525.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Collin+Morikawa&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 6,
         "majors_won": 2,
         "pga_tour_wins": 6
@@ -93,7 +93,7 @@ MOCK_PLAYERS = [
         "last_name": "Cantlay",
         "full_name": "Patrick Cantlay",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_31646.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Patrick+Cantlay&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 8,
         "majors_won": 0,
         "pga_tour_wins": 8
@@ -104,7 +104,7 @@ MOCK_PLAYERS = [
         "last_name": "Hovland",
         "full_name": "Viktor Hovland",
         "country": "Norway",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_46717.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Viktor+Hovland&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 5,
         "majors_won": 0,
         "pga_tour_wins": 6
@@ -115,7 +115,7 @@ MOCK_PLAYERS = [
         "last_name": "Schauffele",
         "full_name": "Xander Schauffele",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_48081.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Xander+Schauffele&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 2,
         "majors_won": 2,
         "pga_tour_wins": 8
@@ -126,7 +126,7 @@ MOCK_PLAYERS = [
         "last_name": "Fleetwood",
         "full_name": "Tommy Fleetwood",
         "country": "England",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_30911.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Tommy+Fleetwood&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 12,
         "majors_won": 0,
         "pga_tour_wins": 2
@@ -137,7 +137,7 @@ MOCK_PLAYERS = [
         "last_name": "DeChambeau",
         "full_name": "Bryson DeChambeau",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_34363.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Bryson+DeChambeau&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 9,
         "majors_won": 2,
         "pga_tour_wins": 9
@@ -148,7 +148,7 @@ MOCK_PLAYERS = [
         "last_name": "Johnson",
         "full_name": "Dustin Johnson",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_30925.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Dustin+Johnson&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 50,
         "majors_won": 2,
         "pga_tour_wins": 24
@@ -159,13 +159,14 @@ MOCK_PLAYERS = [
         "last_name": "Mickelson",
         "full_name": "Phil Mickelson",
         "country": "USA",
-        "photo_url": "https://pga-tour-res.cloudinary.com/image/upload/c_fill,d_headshots_default.png,dpr_2.0,f_auto,g_face:center,h_350,q_auto,w_280/headshots_02199.jpg",
+        "photo_url": "https://ui-avatars.com/api/?name=Phil+Mickelson&size=150&background=0D8ABC&color=fff&bold=true",
         "world_rank": 143,
         "majors_won": 6,
         "pga_tour_wins": 45
     }
 ]
 
+# Keep MOCK_STATS and MOCK_TOURNAMENTS the same as before
 MOCK_STATS = {
     1001: {
         "player_id": 1001,
