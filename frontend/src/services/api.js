@@ -13,3 +13,8 @@ export const getPlayer = async (playerId) => {
   const response = await axios.get(`${API_BASE_URL}/players/${playerId}`);
   return response.data;
 };
+
+export const getAllPlayers = async () => {
+  const response = await axios.get(`${API_BASE_URL}/players`);
+  return response.data;
+};
