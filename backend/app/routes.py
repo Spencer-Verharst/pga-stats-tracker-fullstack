@@ -27,3 +27,8 @@ def get_player(player_id: int):
         "stats": stats,
         "recent_tournaments": tournaments
     }
+
+@router.get("/players")
+def get_all_players():
+    all_players = pga_service.get_all_players()
+    return all_players
